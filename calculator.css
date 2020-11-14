@@ -1,0 +1,46 @@
+.Calculator {
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	border-collapse: collapse;
+}
+
+td {
+	width: 96px;
+	padding: 26px 0;
+	text-align: center;
+}
+
+.Calclator_output {
+	background-color: black;
+	color: white;
+	border-radius: 12px 12px 0 0;
+	text-align: right;
+	padding: 32px;
+	cursor: default;
+}
+
+.Calclator_fun {
+	background-color: #ff9900;
+	color: black;
+	cursor: pointer;
+	transition: opacity ease .25s;
+}
+
+.Calclator_fun:hower {
+	opacity: .75s;
+}
+
+.Calclator_numb {
+	background-color: #bbbbbb;
+	color: white;
+	cursor: pointer;
+}
+
+.Calclator_enter{
+	background-color: #f1f1f1;
+	color: black;
+	border-radius: 0 0 12px 12px;
+	cursor: pointer;
+}
+
