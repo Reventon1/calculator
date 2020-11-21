@@ -11,7 +11,7 @@ td {
 	text-align: center;
 }
 
-.Calclator_output {
+.Calculator__output {
 	background-color: black;
 	color: white;
 	border-radius: 12px 12px 0 0;
@@ -20,24 +20,28 @@ td {
 	cursor: default;
 }
 
-.Calclator_fun {
+.Calculator__fun {
 	background-color: #ff9900;
 	color: black;
 	cursor: pointer;
 	transition: opacity ease .25s;
 }
 
-.Calclator_fun:hower {
-	opacity: .75s;
+.Calculator__fun:hover {
+	opacity: .75
 }
 
-.Calclator_numb {
+.Calculator__numb {
 	background-color: #bbbbbb;
 	color: white;
 	cursor: pointer;
 }
 
-.Calclator_enter{
+.Calculator__numb:hover {
+	opacity: .75
+}
+
+.Calculator__enter {
 	background-color: #f1f1f1;
 	color: black;
 	border-radius: 0 0 12px 12px;
