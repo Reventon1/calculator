@@ -48,3 +48,20 @@ td {
 	cursor: pointer;
 }
 
+.Calculator__enter:hover {
+	opacity: .75;
+}
+
+.Calculator__clear {
+	background-color: #f1f1f1;
+	color: black;
+	border-radius: 0 0 12px 0;
+	cursor: pointer;
+	transition: opacity ease .25s;
+	opacity: .75;
+}
+
+.Calculator__clear:hover {
+	opacity: .5;
+}
+
